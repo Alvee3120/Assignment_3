@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        const book1 = {
+             name : "Pather Panchali: Song of the Road",
+             author : "Bibhutibhushan Bandyopadhay",
+             price : 250
+        };
+        const book2 = {
+             name : "Chokher Bali",
+             author : "Rabindranath Tagore",
+             price : 300
+        };
+        const Books = [book1,book2];
+
+        for (let i = 0; i< Books.length ; i++)
+        {
+            const Book = Books[i];
+            console.log("Book Name : ", Book.name);
+            console.log("Book's Author : ", Book.author);
+            console.log("Book's Price' : ", Book.price);
+            console.log ("----------------------------");
+        }
+
+    </script>
+</body>
+</html>
